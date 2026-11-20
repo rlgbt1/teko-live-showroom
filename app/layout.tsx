@@ -1,0 +1,5 @@
+import type { Metadata } from 'next';
+import './globals.css';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://127.0.0.1:3000');
+export const metadata: Metadata = {metadataBase: new URL(siteUrl), title:{default:'Teko Studio — Explore what’s possible',template:'%s | Teko Studio'},description:'Explore intelligent business systems, analytics and AI through the Teko live showroom.',openGraph:{title:'Teko Studio — Explore what’s possible',description:'An interactive showroom for intelligent business systems.',images:['/assets/teko-mark.png']},twitter:{card:'summary',title:'Teko Studio',description:'Explore what’s possible with intelligent business systems.'},icons:{icon:'/assets/teko-mark.png'}};
+export default function RootLayout({children}:{children:React.ReactNode}) {return <html lang="en"><body><a className="skip-link" href="#main">Skip to content</a>{children}</body></html>}
