@@ -27,16 +27,14 @@ Import `rlgbt1/teko-live-showroom` into Vercel after committing and pushing this
 ## Experiences
 
 - `/`: responsive landing page, solution filters and search, expandable industry applications, and contact through the email supplied in Teko's presentation.
-- `/demos/business-intelligence`: period filters, consistent fictional revenue/expense/profit/order data, interactive charts, category breakdown and CSV export.
-- `/demos/commercial-hub`: editable pipeline stages, customer search/database, recalculated metrics and a rule-based Portuguese assistant using the current pipeline.
-- `/demos/project-management`: project progress, task states and filters, activity log, risk identification and a rule-based Portuguese assistant using current tasks.
-- `/demos/ai-translator`: guided Portuguese–English phrase translation, direction switching and clipboard copy. Unsupported free text explicitly explains the limitation.
+- `/demos/business-intelligence`: Pintinho executive copilot, daily briefing, period filters, revenue and category charts, simulated store operations, connected sources and CSV export.
+- `/demos/project-management`: Pintinho project manager, keyboard-accessible kanban and drag-and-drop, timeline, sample meeting notes converted into tasks, live risks and activity, and a full session reset.
 
 All company records are fictional. The demo reference date is 20 November 2026. AI assistants are explicitly labelled local simulations. No information is sent to AI services. Changes reset on remount or refresh; no database, authentication or persistence is configured.
 
 ## Next iteration
 
-Connect authenticated business data, replace local assistant rules and phrase translations with server-side AI integrations, add persistent workspaces and expand localisation. Keep service credentials server-side, and add access controls before connecting confidential information.
+Connect authenticated business data, replace local assistant rules with server-side AI integrations, add persistent workspaces and expand localisation. Keep service credentials server-side, and add access controls before connecting confidential information.
 
 ## Brand sources
 
